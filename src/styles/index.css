@@ -1,0 +1,141 @@
+/* react defaults */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+.App {
+  text-align: center;
+}
+
+.logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.title {
+
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+/* navbar */
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  display: inline;
+  text-align: center;
+  padding: 14px 16px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: yellow;
+}
+
+.main-container {
+  min-height: 1000px;
+}
+
+/* submenu */
+
+.projects {
+  text-align: center;
+  position: relative;
+  left: 40%;
+  width: 450px;
+  margin: 0px;
+  padding: 20px;
+}
+
+.projects ul {
+  display: flex;
+  list-style-type: none;
+
+} 
+
+.projects li {
+  width: 150px;
+  height: 100px;
+  margin: 3px;
+  background-color: mediumvioletred;
+  border: navy;
+  border-width: 2px;
+}
+
+/* cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 4px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.card-content {
+  min-width: 150px;
+  min-height: 350px;
+}
+.card-title {
+  padding: 2px 16px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+
+/* footer */
+
+.footer {
+  background-color: #222;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+
+/* misc */
+
+.frame-container {
+  background-color: #222;
+}
