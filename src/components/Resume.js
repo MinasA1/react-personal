@@ -2,9 +2,9 @@ import React from 'react'
 
 const Resume = () => (
     <div className='frame-container'>
-    <iframe
+    <iframe 
     title='Resume'
-    src="http://www.minasanton.com/Myresume.pdf"
+    src='https://minasanton.com/resume.pdf'
     width='99%'
     height='1400'
     scrolling='no'

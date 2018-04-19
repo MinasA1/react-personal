@@ -6,9 +6,9 @@ import Projects from './Projects';
 import Resume from './Resume';
 import Contact from './Contact';
 
-const Page = () => (
+const Page = (props) => (
     <Switch>
-        <Route exact path='/' component={Home} />
+        <Route exact path='/' component={Home} d={props.d} />
         <Route path='/blog' component={Blog} />
         <Route path='/projects' component={Projects} />
         <Route path='/resume' component={Resume} />       
