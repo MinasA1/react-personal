@@ -233,12 +233,15 @@ img {
 .frame-container {
     background-color: #222;
     padding-bottom: 7rem;
-    
 }
-
+.frame-container a {
+    text-decoration: none;
+    color: turquoise;
+    font-size: 30px;
+}
 .page {
     text-align: center;
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif, Roboto;
     margin: 0;
     padding-bottom: 7rem;
     min-height: 100vh;
@@ -247,11 +250,11 @@ img {
 
 .page h1 {
     font-size: 50px;
-    font-family: Roboto;
+    font-family: Helvetica, sans-serif, Roboto;
 }
 
 h2 , h3 {
-    font-family: Roboto;
+    font-family: sans-serif, Roboto;
 }
 .page-flex {
     display: flex;
@@ -268,10 +271,30 @@ h2 , h3 {
     margin-top: 0;
     margin-bottom: 150px;
 }
+/* Blog */
 .blog {
     width: 50%;
     margin-top: 150px;
-    margin-left: 28%;
+    margin-left: 25%;
+}
+
+.blog ul {  
+    list-style: none;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.blog li {
+    margin: 4px;
+}
+.blog li a{
+    font-size: 40px;
+    color: #4CAF50;
+}
+
+.blog li a:hover {
+    color: darkgreen;
 }
 
 .text-container {
@@ -283,14 +306,16 @@ h2 , h3 {
     padding: 20px;
     border-radius: 10px;
 }
-
+.text-container p {
+    text-align: left;
+}
 .skills-container {
     font-size: 20px;
     padding: 10px 10px 20px;
     margin-bottom: 3rem;
 }
 .skills-container img {
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -366,7 +391,7 @@ h2 , h3 {
     right: 30px;
     border: medium solid blue;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent blue;
+    border-color: transparent transparent transparent aqua;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -381,7 +406,7 @@ h2 , h3 {
     left: 30px;
     border: medium solid black;
     border-width: 10px 10px 10px 0;
-    border-color: transparent blue transparent transparent;
+    border-color: transparent aqua transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -393,9 +418,9 @@ h2 , h3 {
 /* The actual content */
 
 .content {
-    color: white;
+    color: black;
     padding: 20px 30px;
-    background-color: blue;
+    background-color: aqua;
     position: relative;
     border-radius: 6px;
 }
@@ -413,7 +438,9 @@ h2 , h3 {
         width: 70%;
         margin:auto;
     }
-
+    .text-container p {
+        text-align: center;
+    }
 }
 @media screen and (max-width: 600px) {
     /* Place the timelime to the left */
@@ -429,9 +456,9 @@ h2 , h3 {
     /* Make sure that all arrows are pointing leftwards */
     .container::before {
         left: 60px;
-        border: medium solid blue;
+        border: medium solid aqua;
         border-width: 10px 10px 10px 0;
-        border-color: transparent blue transparent transparent;
+        border-color: transparent aqua transparent transparent;
     }
     /* Make sure all circles are at the same spot */
     .left::after,
@@ -483,6 +510,8 @@ h2 , h3 {
         width: 80%;
         margin:auto;
     }
+    
+    
 }
 
 @media screen and (max-width: 360px) {
@@ -504,6 +533,9 @@ h2 , h3 {
     .blog {
         width: 90%;
         margin:auto;
+    }
+    .skills-container img {
+        margin-right: 0;
     }
 }
 * {
