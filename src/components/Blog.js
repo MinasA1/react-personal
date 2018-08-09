@@ -13,7 +13,7 @@ const articles = [
 const Blog = () => (
   <div className='page'>
    <div className='blog'>
-      <h3>Publications</h3>
+      <h2>Publications</h2>
       <ul>
         {articles.map((v, index) => (
           <li key={index}>
@@ -22,7 +22,7 @@ const Blog = () => (
         ))}
       </ul>
       <br />
-      <h3>Tweets</h3>
+      <h2>Tweets</h2>
     <Timeline
       dataSource={{
         sourceType: 'profile',

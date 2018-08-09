@@ -17,8 +17,11 @@ const NavBar = () => (
           <Link to='/resume'>Resume</Link>
         </li>
         <li>
-          <Link to='/contact'>Contact</Link>
+          <a href='mailto:minasanton@gmail.com'>Email</a>
         </li>
+        {/* <li>
+          <Link to='/contact'>Contact</Link>
+        </li> */}
       </ul>
       <hr />
     </div>

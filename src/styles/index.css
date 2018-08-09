@@ -200,10 +200,10 @@ img {
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
     border: 1px;
     border-radius: 4px;
     cursor: pointer;
+    margin-bottom: 4rem;
 }
 
 .button:hover {
@@ -223,13 +223,12 @@ img {
 }
 
 .contact-form h2 {
-    padding-bottom: 10rem;
+    padding-bottom: 3rem;
 }
 .form-section {
   display: inline-block;
   width: 100%;
-  margin-bottom: 3rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 /* misc */
@@ -259,6 +258,9 @@ img {
     font-family: Helvetica, sans-serif, Roboto;
 }
 
+.page h2 {
+    font-size: 35px
+}
 h2 , h3 {
     font-family: sans-serif, Roboto;
 }
@@ -280,7 +282,7 @@ h2 , h3 {
 /* Blog */
 .blog {
     width: 50%;
-    margin-top: 150px;
+    margin-top: 30px;
     margin-left: 25%;
 }
 
@@ -501,7 +503,7 @@ h2 , h3 {
     }
     .form-section {
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
         align-items: center;
     }
 

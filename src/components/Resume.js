@@ -21,7 +21,7 @@ const Resume = () => (
         aria-label='resume'
         data={window.location.origin + '/pdf/resume.pdf'}
         height={window.screen.width < 1000 ? 600 : 1450}
-        width='99%'
+        width='80%'
         />
     }
     
