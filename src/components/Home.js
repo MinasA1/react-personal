@@ -9,7 +9,7 @@ const Home = (props) => (
         <h1>Welcome To My Page!</h1>
         <br />
         <div className='text-container'> 
-        <h2>A little info about me:</h2>
+        <h2>About me:</h2>
             {summary} 
         <br />
         <h3>Timeline</h3>
