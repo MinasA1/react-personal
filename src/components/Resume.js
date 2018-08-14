@@ -9,12 +9,7 @@ const Resume = () => (
     <div className='frame-container'>
     {
     mobile ?
-    <object
-        aria-label='resume'
-        width='100%'
-        height="600"
-        data="https://docs.google.com/gview?embedded=true&url=http://minasanton.com/pdf/resume.pdf"
-    />
+    <iframe src="https://drive.google.com/file/d/1eNPADZsI1amScWFahHGwGPqLzHOzboLg/preview" width="80%" height="480"></iframe>
 
         :
     <object

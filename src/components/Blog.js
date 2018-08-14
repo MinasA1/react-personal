@@ -6,8 +6,8 @@ const articles = [
   {Title: 'Dynamic Libraries', Link: 'https://medium.com/@minas_anton/dynamic-or-shared-libraries-2805cb4fb410'},
   {Title: 'Static Libraries', Link: 'https://medium.com/@minas_anton/c-static-libraries-95ffc4d8dca2'},
   {Title: 'Objects in Python', Link: 'https://medium.com/@minas_anton/objects-in-python-9dc5cc9dc6f0'},
-  {Title: 'What happens when you type ls*.c', Link: 'https://medium.com/@minas_anton/objects-in-python-9dc5cc9dc6f0'},
-  {Title: 'Stages of compilation process', Link: 'https://medium.com/@minas_anton/objects-in-python-9dc5cc9dc6f0'}
+  {Title: 'What happens when you type ls*.c', Link: 'https://medium.com/@minas_anton/what-happens-when-you-type-ls-c-ec2473b794d7'},
+  {Title: 'Stages of compilation process', Link: 'https://medium.com/@minas_anton/stages-of-compilation-process-8ac4ead4a21'}
 ]
 
 const Blog = () => (
